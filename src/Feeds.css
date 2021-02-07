@@ -1,0 +1,43 @@
+.feeds {
+    flex: 0.6;
+    margin: 0 20px;
+}
+
+.feeds__top {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.feeds__form {
+    display: flex;
+    border: 1px solid rgb(140, 140, 235);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.feeds__top input {
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+.feeds__top button {
+    display: none;
+}
+
+.feeds__options {
+    display: flex;
+    justify-content: space-between;
+}
